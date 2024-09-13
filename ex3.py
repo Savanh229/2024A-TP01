@@ -9,4 +9,4 @@ y=angle
 g=9.8
 portee=round((pow(x,2)*math.sin(math.radians(2*y)))/g,2)
 
-print("La portée du projectile est de ",portee, "mètres")
+print("La distance maximale en x est de ",portee, "mètres")
