@@ -2,11 +2,11 @@
 # TODO: Importer les modules nécessaires.
 import math
 
-speed = float(input("Quelle est la vitesse du projectile en m/s?"))
-angle = float(input("Quelle est l'angle du projectile en degrés ?"))
+speed = float(input("Vitesse initiale (m/s): "))
+angle = float(input("Angle de lancer (en degrés): "))
 x=speed
 y=angle
 g=9.8
 portee=round((pow(x,2)*math.sin(math.radians(2*y)))/g,2)
 
-print("La distance maximale en x est de ",portee, "m")
+print(f"Distance parcourue: {portee}m")
