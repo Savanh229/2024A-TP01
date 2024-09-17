@@ -8,4 +8,4 @@ category= input("Dans une catégorie spécifique ? ")
 record= input("Quel est le record ? ")
 if category=="":
     category = None
-print(f"\nNouveau Record:\n--------------------\n{date} - {discipline} - {category}:\n\t{athlete} ({country}) - {record}\n")
+print(f"\nNouveau Record:\n--------------------\n{date} - {discipline} - {category}:\n\t{athlete} ({country}) - {record}")
