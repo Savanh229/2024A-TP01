@@ -1,6 +1,6 @@
 # TODO: Créer un script pour calculer les ressources nécessaires pour assainir la Seine.
 # TODO: Importer les modules nécessaires.
-10
+
 water_quantity = input("Quelle quantité d'eau faut-il assainir ? ")
 
 import math
